@@ -1,0 +1,82 @@
+
+.body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.div1
+{
+  background-image: url(wed-development/images/div1.png);
+  height:840px ;
+  width: 1440px;
+}
+
+@media only screen and (min-width: 600px) {
+    .top-nav{
+        margin-top: 50px;
+    }
+    
+  }
+
+  .home{
+    font-size: 19px;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Readex Pro";
+  }
+
+.title bar{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item{
+  
+  
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 200;
+  font-family: "Readex Pro";
+  text-align: left;
+}
+@media only screen and (min-width: 800px) {
+ .nav-item{
+  padding-left: 25px;
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+    .contact-btn{
+        margin-left: 62px;
+    }
+  }
+
+  .contact-btn{
+   
+    font-size: 15px;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: #f4f4f4;
+font-weight: 700;
+font-family: "Readex Pro";
+text-align: center;
+padding: 6px 61px;
+height: fit-content;
+
+  }
+
+  .batch{
+    font-size: 19px;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Readex Pro";
+text-align: center;
+  }
+ 
