@@ -95,17 +95,16 @@ position: relative;
 .ver{
   border-left: 5px;
   height: 37px;
- position: absolute;
- left: 50%;
+ position: relative;
+ 
 width: 2px;
 background-color:#000000;
 top: 267px;
 }
 @media only screen and ( max-width: 1000px) {
   .ver{
-    position: absolute;
-    left: 50%;
-    top: 143px;
+    position: relative;
+    top: 61px;
     height: 28px;
   }
 }
@@ -140,4 +139,13 @@ color: #777777;
 font-weight: 300;
 font-family: "Readex Pro";
 text-align: center;
+height: 195px;
+line-height: 17px;
+  }
+
+  .learn-btn{
+    width: 224px;
+height: 51px;
+background-color: #000000;
+border-radius: 10px;
   }
