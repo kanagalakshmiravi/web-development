@@ -96,10 +96,10 @@ position: relative;
   border-left: 5px;
   height: 37px;
  position: relative;
- 
+ top: 94px;
 width: 2px;
 background-color:#000000;
-top: 267px;
+
 }
 @media only screen and ( max-width: 1000px) {
   .ver{
@@ -114,7 +114,7 @@ top: 267px;
 font-size: 92px;
 letter-spacing: 4px;
 position: relative;
-    top: 140px;
+    top: 86px;
 text-transform: uppercase;
 color:transparent;
 font-weight: 400;
@@ -133,13 +133,13 @@ text-align: center;
   }
   .cont1{
     position: relative;
-    top: 116px;
+    top: 87px;
 font-size: 14px;
 color: #777777;
 font-weight: 300;
 font-family: "Readex Pro";
 text-align: center;
-height: 195px;
+height: 172px;
 line-height: 17px;
   }
 
@@ -149,3 +149,68 @@ height: 51px;
 background-color: #000000;
 border-radius: 10px;
   }
+
+  .lore{
+    position: relative;
+    top: -41px;
+    position: relative;
+    top: -41px;
+    font-size: 17px;
+    text-transform: uppercase;
+letter-spacing: -1px;
+line-height: 21px;
+color: #000000;
+font-weight:900;
+font-family: "Readex Pro";
+text-align: right;
+padding-right: 13px;
+  }
+
+  @media only screen and ( max-width: 1000px) {
+    .lore{
+      position: relative;
+      top: 10px;
+    
+    }
+  }
+
+  .div2{
+    background-image: url(/wed-development/images/div2.png);
+    width: 100% ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+ /* .content1{
+    font-size: 26px;
+letter-spacing: -1px;
+line-height: 22px;
+text-transform: uppercase;
+color: #f4f4f4;
+font-weight: 700;
+font-family: "Readex Pro";
+  }
+
+  .content2{
+    font-size: 19px;
+letter-spacing: -1px;
+line-height: 22px;
+text-transform: uppercase;
+color: #f4f4f4;
+font-weight: 500;
+font-family: "Readex Pro";
+  }
+  .content3{
+    width: 796px;
+height: 140px;
+font-size: 14px;
+line-height: 14px;
+color: #777777;
+font-weight: 300;
+font-family: "Readex Pro";
+text-align: left;
+  } */
+
+  
