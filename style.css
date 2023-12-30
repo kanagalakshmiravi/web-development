@@ -4,7 +4,7 @@
 .div1{
   background-image: url(/wed-development/images/Screenshot_2.png);
   width: 100% ;
-  height: 100vh;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -174,16 +174,16 @@ padding-right: 13px;
     }
   }
 
-  .div2{
-    background-image: url(/wed-development/images/div2.png);
+    .div2{
+    background-image: url(/wed-development/images/div2new.png);
     width: 100% ;
-  height: 100vh;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 
   }
 
- /* .content1{
+.content1{
     font-size: 26px;
 letter-spacing: -1px;
 line-height: 22px;
@@ -203,14 +203,53 @@ font-weight: 500;
 font-family: "Readex Pro";
   }
   .content3{
-    width: 796px;
-height: 140px;
+    
+height: 95px;
+font-size: 14px;
+line-height: 14px;
+color: #777777;
+font-weight: 300;
+font-family: "Readex Pro";
+
+  } 
+  .content4{
+    font-size: 18px;
+letter-spacing: -1px;
+text-decoration: underline;
+text-transform: uppercase;
+color: #f4f4f4;
+font-weight: 700;
+font-family: "Readex Pro";
+  }
+.offer{
+  font-size: 67px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color:transparent;
+  font-weight: 400;
+  font-family: "Pirata One";
+  text-align: center;
+  line-height: 86px;
+  
+  
+  -webkit-text-stroke: 2px #000000;
+}
+ 
+.div2cont{
+
+height: 99px;
 font-size: 14px;
 line-height: 14px;
 color: #777777;
 font-weight: 300;
 font-family: "Readex Pro";
 text-align: left;
-  } */
+}
 
-  
+  .btn{
+    outline: 2px solid;
+    width: inherit;
+    position: relative;
+    left: 50%;
+
+  }
