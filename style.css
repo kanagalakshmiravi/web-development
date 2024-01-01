@@ -210,6 +210,9 @@ line-height: 14px;
 color: #777777;
 font-weight: 300;
 font-family: "Readex Pro";
+position: relative;
+left: -30px;
+
 
   } 
   .content4{
@@ -228,28 +231,116 @@ font-family: "Readex Pro";
   color:transparent;
   font-weight: 400;
   font-family: "Pirata One";
-  text-align: center;
+  text-align: left;
   line-height: 86px;
+  position: relative;
+  left: -135px;
+  width: fit-content;
   
   
   -webkit-text-stroke: 2px #000000;
 }
+@media only screen and ( max-width: 900px) {
+  .offer{
+    font-size: 53px;
+    line-height: 67px;
+  
+  }
+}
  
 .div2cont{
 
-height: 99px;
+height: 68px;
 font-size: 14px;
 line-height: 14px;
 color: #777777;
 font-weight: 300;
 font-family: "Readex Pro";
 text-align: left;
-}
 
-  .btn{
+}
+@media only screen and ( max-width: 900px) {
+  .offer{
+    width: fit-content;
+   
+  }
+}
+  .lmbtn{
     outline: 2px solid;
     width: inherit;
     position: relative;
-    left: 50%;
+    left: 50%; 
+    float: left;
+    position: relative;
+    left: 49px;
 
+
+  }
+  @media only screen and ( max-width: 600px) {
+    .lmbtn{
+      width: 173px;
+     
+    }
+  }
+ /*
+  .div3{
+    background-image: url(/wed-development/images/div3new.png);
+    width: 100% ;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .flexbox{
+    display: flex;
+    justify-content: center;
+  }
+ .box{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+  }
+  .box1{
+    background-color: #e7e7e7;
+  }
+  .div3cont1{
+    
+  
+    font-size: 18px;
+letter-spacing: -1px;
+line-height: 22px;
+text-transform: uppercase;
+color: #000000;
+font-weight: 700;
+font-family: "Readex Pro";
+    
+  }
+
+  .div3cont2{
+    font-size: 14px;
+letter-spacing: -1px;
+line-height: 22px;
+text-transform: uppercase;
+color: #777777;
+font-weight: 500;
+font-family: "Readex Pro";
+height: 120px;
+    margin: 0px;
+  }
+
+  .div3cont3{
+    font-size: 15px;
+letter-spacing: -1px;
+text-decoration: underline;
+text-transform: uppercase;
+color: #000000;
+font-weight: bolder;
+font-family: "Readex Pro";
+  }
+  */
+  .div3{
+    background-image: url(/wed-development/images/div3new.png);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
   }
