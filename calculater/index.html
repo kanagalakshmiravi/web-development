@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="container   mx-auto">
+        <div class=" cal">
+    <input id="inp" type="num"  placeholder="0"><br>
+
+
+    <button  onclick="del()" type="button" class="btn btn-light">Del</button>
+    <button  onclick="cl()" type="button" class="btn btn-light">Cl</button>
+    <button onclick="foo('%')" type="button" class="btn btn-light">%</button>
+    <button  onclick="foo('/')" type="button" class="btn btn-light">/</button><br>
+    <button  onclick="foo('7')" type="button" class="btn btn-light">7</button>
+    <button  onclick="foo('8')" type="button" class="btn btn-light">8</button>
+    <button  onclick="foo('9')" type="button" class="btn btn-light">9</button>
+    <button onclick="foo('x')" type="button" class="btn btn-light">x</button><br>
+    <button  onclick="foo('4')" type="button" class="btn btn-light">4</button>
+    <button  onclick="foo('5')" type="button" class="btn btn-light">5</button>
+    <button  onclick="foo('6')" type="button" class="btn btn-light">6</button>
+    <button  onclick="foo('-')" type="button" class="btn btn-light">-</button><br>
+    <button  onclick="foo('1')" type="button" class="btn btn-light">1</button>
+     <button  onclick="foo('2')" type="button" class="btn btn-light">2</button>
+    <button  onclick="foo('3')" type="button" class="btn btn-light">3</button>
+    <button  onclick="foo('+')" type="button" class="btn btn-light">+</button><br>
+    
+    <button onclick="foo('.')" type="button" class="btn btn-light">.</button>
+    <button onclick="foo('0')" type="button" class="btn btn-light">0</button>
+    <button  onclick="myfun()"  type="button" class="btn btn-light" style="width:159px ;color: white; background-color: #0067c0;">=</button>
+    </div>
+    </div>
+
+
+
+
+    <script>
+       
+         function foo( num ){
+          
+          document.getElementById('inp').value+=num;
+         }
+
+     function myfun(){
+
+        document.getElementById('inp').value=eval(document.getElementById('inp').value);
+     }
+
+     function del(){
+   document.getElementById('inp').value=document.getElementById('inp').value.slice(0,-1);
+     }
+
+     function cl(){
+        document.getElementById('inp').value=" ";
+     }
+    </script>
+</body>
+
+
+
+
+
+</html>
